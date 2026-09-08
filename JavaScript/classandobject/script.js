@@ -48,11 +48,11 @@ class heyBhai{
     constructor(name){
         this.name=name
     }
-
+// getter
     get name(){
         return this._name
     }
-
+// setter
     set name(name){
         this._name=name
     }
