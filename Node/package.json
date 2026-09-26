@@ -1,8 +1,10 @@
 {
   "type": "module",
   "dependencies": {
+    "express": "^5.2.1",
     "inquirer": "^14.2.2",
-    "qr-image": "^3.2.0"
+    "qr-image": "^3.2.0",
+    "y": "^0.3.2"
   },
   "name": "node",
   "version": "1.0.0",
@@ -13,6 +15,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {}
+  "license": "ISC"
 }
