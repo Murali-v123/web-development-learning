@@ -1,4 +1,4 @@
-const name =nam=>console.log(nam,des);
+const name = nam => console.log(nam,des);
 // const name =(nam,des)=>console.log(nam,des);
 
 // name(x.name,x.desc)
