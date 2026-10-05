@@ -24,13 +24,21 @@ import {randomSuperhero} from "superheroes"
 
 // for v.4
 async function start() {
-    // 1. This safely loads the modern version in CommonJS
+//     // 1. This safely loads the modern version in CommonJS
     const { randomSuperhero } = await import("superheroes");
     
-    // 2. This calls the correct function name for version 4
+//     // 2. This calls the correct function name for version 4
     const name = randomSuperhero(); 
     
     console.log(`Hey Hero Your name is ${name} ryt`);
 }
-
 start();
+
+// const generate=require("sillyname")
+// const name=generate()
+// console.log(name);
+
+
+// import {randomSuperhero}  from "superheroes";
+const nam=randomSuperhero()
+console.log(nam+"jhsdfkjsm");
